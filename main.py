@@ -6,4 +6,4 @@ import streamlit as st
 st.text_input("Введите длину балки в м:", help="London is a capital of great britan", placeholder="London")
 
 
-st.image('https://github.com/qwinox/streamlit_test/blob/main/edit.png', caption='Sunrise by the mountains')
+st.image('edit.png', caption='Sunrise by the mountains')
