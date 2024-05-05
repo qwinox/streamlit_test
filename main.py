@@ -20,7 +20,7 @@ rectangle = Rectangle((x, y), width, height, edgecolor='r', facecolor='none')
 # Создаем круг с центром в (x, y) и радиусом radius
 x = 2
 y = 2
-radius = 1
+radius = 0.1
 circle = Circle((x, y), radius, edgecolor='b', facecolor='none')
 
 # Добавляем прямоугольник на график
@@ -31,7 +31,7 @@ ax.add_patch(circle)
 
 # Устанавливаем пределы осей
 plt.xlim(0, 5)
-plt.ylim(0, 5)
+plt.ylim(0, 7)
 
 # Показываем график
 st.pyplot(plt)
