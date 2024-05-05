@@ -11,8 +11,8 @@ st.image('edit.png', caption='Sunrise by the mountains')
 fig, ax = plt.subplots()
 
 # Создаем прямоугольник с координатами (x, y), шириной width и высотой height
-x = 1
-y = 1
+x = 0
+y = 0
 width = 3
 height = 2
 rectangle = Rectangle((x, y), width, height, edgecolor='r', facecolor='none')
@@ -30,8 +30,8 @@ ax.add_patch(rectangle)
 ax.add_patch(circle)
 
 # Устанавливаем пределы осей
-plt.xlim(0, 7)
-plt.ylim(0, 5)
+plt.xlim(-1, 7)
+plt.ylim(-1, 5)
 
 # Показываем график
 st.pyplot(plt)
