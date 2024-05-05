@@ -31,4 +31,4 @@ plt.xlim(0, 5)
 plt.ylim(0, 5)
 
 # Показываем график
-plt.show()
+st.pyplot(plt)
