@@ -18,7 +18,7 @@ height = 2
 rectangle = Rectangle((x, y), width, height, edgecolor='r', facecolor='none')
 
 # Создаем круг с центром в (x, y) и радиусом radius
-x = 2
+x = 1
 y = 2
 radius = 0.1
 circle = Circle((x, y), radius, edgecolor='b', facecolor='none')
