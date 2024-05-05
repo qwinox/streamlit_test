@@ -30,8 +30,8 @@ ax.add_patch(rectangle)
 ax.add_patch(circle)
 
 # Устанавливаем пределы осей
-plt.xlim(0, 5)
-plt.ylim(0, 7)
+plt.xlim(0, 7)
+plt.ylim(0, 5)
 
 # Показываем график
 st.pyplot(plt)
